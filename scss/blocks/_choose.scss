@@ -1,0 +1,106 @@
+.choose{
+    background-image: url(../images/tirmoq.svg);
+    width: 55px;
+    height: 44px;
+    margin-left: 170px;
+    margin-top: 30px;
+    position: 300px;
+}
+
+.choose__word{
+    width: 310px;
+    color: #fff;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+.choose__list{
+    display: flex;
+    margin-left: -200px;
+    margin-top: 130px;
+    list-style-type: none;
+}
+
+.choose__item{
+  width: 360px;
+  height: 200px;
+  margin-left: 30px;
+  padding: 17px;
+  background-color: #202A3C;
+}
+
+.choose__img{
+    width: 24px;
+    height: 24px;
+     margin-top: 30px;
+}
+
+.choose__inner{
+margin-left: 40px;
+}
+
+.stish__text{
+   color: #fff;
+   margin-top: -27px;
+   margin-left: 50px;
+}
+
+.stish__word{
+    color: #fff;
+    margin-left: 50px;
+}
+
+@media only screen and (max-width:460px){
+    .choose{
+        background-image: url(../images/telefon.png);
+        width: 22px;
+        height: 12px;
+        margin-left: 120px;
+    }
+
+    .choose__list{
+        padding: 0;
+        margin: 0;
+        margin-left:-100px;
+        flex-direction: column;
+        margin-bottom: 770px;
+    }
+
+    .choose__item{
+        width: 280px;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+      
+    .choose__word{
+        width: 240px;
+        margin-top: 27px;
+        font-size: 10px;
+    }
+
+    .stish__text{
+        font-size: 10px;
+    }
+
+.stish__word{
+    font-size: 11px;
+}
+
+}
+   
+@media only screen and (max-width:980px){
+    .choose__list{
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .choose__item{
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width:459px){
+    .step__team{
+        margin: 0 auto;
+    }
+}

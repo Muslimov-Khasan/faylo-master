@@ -1,0 +1,268 @@
+.step__list{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 120px;
+    list-style-type: none;
+    margin-bottom: 100px;
+}
+.step__item{
+    width: 350px;
+    margin-left: 100px; 
+    margin-bottom: 33px;  
+}
+.step__text{
+    width: 350px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.step__word{
+    font-size: 14px;
+    color: #fff;
+}
+
+.step__team{
+    width: 563px;
+    display: flex;
+}
+
+.team{
+    font-size: 40px;
+    width: 400px;
+    color: #fff;
+}
+
+.team__text{
+    width: 563px;
+    color: #fff;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.team__word{
+    width: 563px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.team__mobil{
+    display: none;
+}
+
+.team__link{
+    display: block;
+    width: 200px;
+    color:#62E0D9;
+    text-decoration: none;
+    border-bottom: #62E0D9 2px solid;
+}
+
+.box{
+    margin-top: 40px;
+}
+
+
+@media only screen and (max-width:460px){
+    .step__list{
+        margin-right: 400px;
+    }
+
+    .box{
+        padding: 0;
+        margin: 0;
+        margin-top: 310px;
+        margin-left: 10px;
+        text-align: center;
+        margin-right: 700px;
+    }
+    
+    .team__mobil{
+        position: absolute;
+        display: block;
+        object-fit: cover;
+    }
+    .team__nob{
+        display: none;
+    }
+    
+    .team{
+        font-size: 18px;       
+        color: #fff;
+        margin-left: -20px;
+        text-align: center;
+    }
+    
+    .team__text{
+        width: 320px;
+        color: #fff;
+        margin-bottom: 16px;
+        font-size: 14px;
+    }
+    .team__word{
+        width: 320px;
+        font-size: 14px;
+        color: #fff;
+    }
+
+    .team__link{
+        margin-left:60px;
+    }
+}
+
+@media only screen and (max-width:371px){
+    .box{
+        padding: 0;
+        margin: 0;
+        margin-top: 310px;
+        margin-left: 10px;
+        text-align: center;
+        margin-right: 700px;
+    }
+    
+    .team__mobil{
+        position: absolute;
+        display: block;
+        object-fit: cover;
+    }
+    .team__nob{
+        display: none;
+    }
+    
+    .team{
+        font-size: 18px;       
+        color: #fff;
+        margin-left: -20px;
+        text-align: center;
+    }
+    
+    .team__text{
+        width: 320px;
+        color: #fff;
+        margin-bottom: 16px;
+        font-size: 14px;
+    }
+    .team__word{
+        width: 320px;
+        font-size: 14px;
+        color: #fff;
+    }
+
+    .team__link{
+        margin-left:60px;
+    }
+}
+
+@media only screen and (max-width:371px){
+    .step__list{
+        margin-left: -160px;
+        flex-direction: column;
+    }
+    
+    .step__text{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:373px){
+    .step__list{
+        margin-left: -160px;
+        flex-direction: column;
+    }
+    
+    .step__text{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .step__list{
+        margin-left: -200px;
+        flex-direction: column;
+    }
+    
+    .step__text{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .step__list{
+        margin-left: 20px;
+        flex-direction: column;
+    }
+    
+    .step__text{
+        font-size: 18px;
+    }
+}
+
+
+@media only screen and (max-width:460px){
+    .step__list{
+        margin-left: -160px;
+        flex-direction: column;
+    }
+    
+    .step__text{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:979px){
+    .step__list{
+        display: block;
+        margin-left: 200%; 
+    }
+
+    .step__text{
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width:1028px){
+    .step__list{
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width:980px){
+    .step__team{
+        flex-direction: column;
+    }
+
+    .step__list{
+        margin-left: 150px;
+    }
+
+    .team__nob{
+        margin-left: 200px;
+    }
+
+    .box{
+        margin-left: 230px;
+    }
+
+    .team{
+        font-size: 20px;
+    }
+
+    .team__text{
+        width: 320px;
+        font-size: 14px;
+    }
+
+    .team__word{
+        width: 320px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:821px){
+ .step__list{
+    margin-left: 50px;
+ }   
+
+
+}
